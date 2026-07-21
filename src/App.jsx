@@ -1,8 +1,8 @@
-import ContadorDuploLimite from "./exercicios/ContadorDuploLimite-UseReducer/ContadorDuploLimite"
+import ExemploSimples from "./exercicios/Primeiro-exemplo-useMemo/ExemploSimples"
 const App =()=>{
 
   return(
-    <ContadorDuploLimite/>
+    <ExemploSimples/>
   )
 }
 

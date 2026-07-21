@@ -1,8 +1,8 @@
-import Interruptor from "./exercicios/Interruptor-useReducer/Interruptor"
+import ContadorLimitado from "./exercicios/Contador-Limitado-UseReducer/ContadorLimitado"
 const App =()=>{
 
   return(
-    <Interruptor/>
+    <ContadorLimitado/>
   )
 }
 

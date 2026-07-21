@@ -1,13 +1,8 @@
-import ProviderTema from "./exercicios/tema-context/ProviderTema"
-import BotaoTema from "./exercicios/tema-context/BotaoTema"
-import MostrarTema from "./exercicios/tema-context/MostrarTema"
+import Contador from "./exercicios/Contador-useReducer/Contador"
 const App =()=>{
 
   return(
-    <ProviderTema>
-      <MostrarTema/>
-      <BotaoTema/>
-    </ProviderTema>
+    <Contador/>
   )
 }
 

@@ -1,8 +1,8 @@
-import PrecoDobro from "./exercicios/Dobro-useMemo/PrecoDobro"
+import MediaNotas from "./exercicios/Media-notas-useMemo/MediaNotas"
 const App =()=>{
 
   return(
-    <PrecoDobro/>
+    <MediaNotas/>
   )
 }
 

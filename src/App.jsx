@@ -1,8 +1,8 @@
-import ContadorLimitado from "./exercicios/Contador-Limitado-UseReducer/ContadorLimitado"
+import ContadorDuploLimite from "./exercicios/ContadorDuploLimite-UseReducer/ContadorDuploLimite"
 const App =()=>{
 
   return(
-    <ContadorLimitado/>
+    <ContadorDuploLimite/>
   )
 }
 

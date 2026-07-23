@@ -1,8 +1,11 @@
-import MediaNotas from "./exercicios/Media-notas-useMemo/MediaNotas"
-const App =()=>{
+import useContador from "./exercicios/Usando-Customs/Contador"
 
+const App =()=>{
+  const {views}=useContador(0)
   return(
-    <MediaNotas/>
+    <div>
+      
+    </div>
   )
 }
 

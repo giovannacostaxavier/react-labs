@@ -1,10 +1,10 @@
-import useContador from "./exercicios/Usando-Customs/Contador"
+import useSaudacao from "./exercicios/Usando-Customs/Saudacao"
 
 const App =()=>{
-  const {views}=useContador(0)
+    const mensagem = useSaudacao()
   return(
     <div>
-      
+      <p>{mensagem}</p>
     </div>
   )
 }

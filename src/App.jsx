@@ -1,12 +1,9 @@
-import Cabecalho from "./exercicios/Usando-Customs/Cabecalho"
-import Rodape from "./exercicios/Usando-Customs/Rodape"
-
+import Luz from "./exercicios/Alternador-Customs/Luz"
 const App =()=>{
    
   return(
     <div>
-      <Rodape/>
-      <Cabecalho/>
+      <Luz/>
     </div>
   )
 }

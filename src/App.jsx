@@ -1,10 +1,12 @@
-import useSaudacao from "./exercicios/Usando-Customs/Saudacao"
+import Cabecalho from "./exercicios/Usando-Customs/Cabecalho"
+import Rodape from "./exercicios/Usando-Customs/Rodape"
 
 const App =()=>{
-    const mensagem = useSaudacao()
+   
   return(
     <div>
-      <p>{mensagem}</p>
+      <Rodape/>
+      <Cabecalho/>
     </div>
   )
 }

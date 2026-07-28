@@ -1,9 +1,16 @@
-import Luz from "./exercicios/Alternador-Customs/Luz"
+//import Aluno from "./exercicios/ExercicioSimplesProps/Aluno"
+//import Cartao from "./exercicios/ExercicioSimplesProps/Cartao"
+
 const App =()=>{
    
   return(
     <div>
-      <Luz/>
+     { /*<Aluno nome = "Giovanna" curso="React">
+      </Aluno>
+      <Cartao nome = "Giovanna" cidade="Porto" profissao="Desenvolvedora">
+      </Cartao>*/}
+      
+
     </div>
   )
 }

@@ -1,11 +1,11 @@
-import BotaoLike from "./exercicios/LikesComZustand/BotaoLike"
+import ListaFavoritos from "./exercicios/ListaDeFavoritosZustand/ListaFavoritos"
 
 const App =()=>{
    
   return(
     <div>
 
-      <BotaoLike/>
+      <ListaFavoritos/>
 
     </div>
   )

@@ -1,11 +1,11 @@
-import Botao from "./exercicios/Primeiro-store-zustand/Botao"
+import BotaoLike from "./exercicios/LikesComZustand/BotaoLike"
 
 const App =()=>{
    
   return(
     <div>
 
-      <Botao/>
+      <BotaoLike/>
 
     </div>
   )

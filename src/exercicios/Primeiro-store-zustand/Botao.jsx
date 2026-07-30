@@ -1,7 +1,7 @@
-import UseContadorStore from "./UseContadorStore"
+import useContadorStore from "./useContadorStore"
 const Botao = ()=>{
-    const contador = UseContadorStore((state)=> state.contador)
-    const incrementar = UseContadorStore((state)=> state.incrementar)
+    const contador = useContadorStore((state)=> state.contador)
+    const incrementar = useContadorStore((state)=> state.incrementar)
 
     return (
         <button onClick={incrementar}>

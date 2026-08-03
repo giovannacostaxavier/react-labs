@@ -1,5 +1,5 @@
 import { Outlet } from "react-router-dom"
-import ListaFavoritos from "./exercicios/ListaDeFavoritosZustand/ListaFavoritos"
+import Navegacao from "./exercicios/React-Router-primeiros-testes/Navegacao"
 
 const App =()=>{
    
@@ -7,6 +7,8 @@ const App =()=>{
     <div>
 
       <Outlet/>
+      <Navegacao/>
+      
 
     </div>
   )

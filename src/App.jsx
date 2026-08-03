@@ -1,3 +1,4 @@
+import { Outlet } from "react-router-dom"
 import ListaFavoritos from "./exercicios/ListaDeFavoritosZustand/ListaFavoritos"
 
 const App =()=>{
@@ -5,7 +6,7 @@ const App =()=>{
   return(
     <div>
 
-      <ListaFavoritos/>
+      <Outlet/>
 
     </div>
   )

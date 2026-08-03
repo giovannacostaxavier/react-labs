@@ -6,6 +6,7 @@ import { createBrowserRouter,RouterProvider } from 'react-router-dom'
 import Home from './exercicios/React-Router-primeiros-testes/Home.jsx'
 import Contacts from './exercicios/React-Router-primeiros-testes/Contacts.jsx'
 import Error from './exercicios/React-Router-primeiros-testes/Error.jsx'
+import DetalhesdeContacto from './exercicios/React-Router-primeiros-testes/DetalhesdeContacto.jsx'
 
 
 const router = createBrowserRouter([
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
       {
         path: "contacts",
         element: <Contacts/>
+      },
+      {
+        path: "contacts/:id",
+        element: <DetalhesdeContacto/>
       }
     ],
     errorElement: <Error/>

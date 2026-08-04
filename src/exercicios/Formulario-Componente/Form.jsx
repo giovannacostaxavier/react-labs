@@ -9,10 +9,10 @@ const Form =()=>{
     }
     return(
        <form onSubmit={handleSubmit(aoEnviar)}>
-        <input {...register ("nome",{required : true})}/>
+        <input {...register ("nome",{required : true})} placeholder="Nome"/>
         {errors.nome && <p>O nome é obrigatório</p>}
 
-        <input {...register ("email",{required : true})}/>
+        <input {...register ("email",{required : true})} placeholder="Email"/>
         {errors.email && <p>O email é obrigatório</p>}
 
        </form>

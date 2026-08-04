@@ -17,7 +17,7 @@ const router = createBrowserRouter([
   {
     path: "contacts",
     element: <Contacts/>
-  },*/
+  },
   {
     path: "/",
     element: <App/>,
@@ -40,7 +40,7 @@ const router = createBrowserRouter([
       }
     ],
     errorElement: <Error/>
-  }
+  }*/
 ])
 
 createRoot(document.getElementById('root')).render(

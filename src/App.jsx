@@ -1,15 +1,10 @@
-import { Outlet } from "react-router-dom"
-import Navegacao from "./exercicios/React-Router-primeiros-testes/Navegacao"
+import Form from "./exercicios/Formulario-Componente/Form"
 
 const App =()=>{
    
   return(
     <div>
-
-      <Outlet/>
-      <Navegacao/>
-      
-
+      <Form/>
     </div>
   )
 }

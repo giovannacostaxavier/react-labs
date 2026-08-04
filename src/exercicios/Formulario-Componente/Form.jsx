@@ -1,10 +1,10 @@
 import { useForm } from "react-hook-form"
 
 const Form =()=>{
-    const {register,handleSubmit,formState: {errors}} = useform()
+    const {register,handleSubmit,formState: {errors}} = useForm()
 
     const aoEnviar = (dados)=>{
-        console.log(dodos);
+        console.log(dados);
         
     }
     return(
@@ -14,6 +14,8 @@ const Form =()=>{
 
         <input {...register ("email",{required : true})} placeholder="Email"/>
         {errors.email && <p>O email é obrigatório</p>}
+
+        <button type="submit">Enviar</button>
 
        </form>
     )

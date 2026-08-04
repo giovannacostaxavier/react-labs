@@ -10,7 +10,7 @@ import DetalhesdeContacto from './exercicios/React-Router-primeiros-testes/Detal
 
 
 const router = createBrowserRouter([
-  /*{
+  {
     path: "/",
     element: <Home/>
   },
@@ -40,11 +40,12 @@ const router = createBrowserRouter([
       }
     ],
     errorElement: <Error/>
-  }*/
+  }
 ])
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <RouterProvider router = {router}/>
+    <App/>
+   {/*<RouterProvider router = {router}/>*/}
   </StrictMode>,
 )
